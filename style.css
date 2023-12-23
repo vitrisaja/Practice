@@ -1,0 +1,113 @@
+body {
+    background-color: #49B749;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.kotak {
+    margin-top: 50px;
+    background-color: #fff;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    font-weight: 300;
+}
+
+.kotak h2 {
+    margin: 0;
+}
+
+.kotak p {
+    font-style: italic;
+    color: #666;
+    margin: 5px 0;
+}
+
+.kotak ol {
+    margin: 20px 0;
+}
+
+.kotak ol li {
+    margin: 5px 0;
+    padding: 3px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.kotak ol li:nth-child(even) {
+    background: #ddd;
+}
+
+.kotak .completed {
+    text-decoration: line-through;
+    color: #666;
+}
+
+.kotak .buttonklik {
+    margin: 10px 2px;
+    padding: 5px 20px;
+    border-radius: 15px;
+    background-color: #0093D5;
+    border: none;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    font-size: small;
+}
+
+.kotak .buttonklik {
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+.kotak input {
+    padding: 3px 6px;
+}
+
+.kotak form {
+    display: inline-block;
+}
+
+#control-kotak {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.kotak #clear-button {
+    background-color: #49B749;
+}
+
+.kotak #empty-button {
+    background-color: #9B1C20;
+}
+
+.kotak #save-button {
+    background-color: #49B749;
+}
+
+@media only screen and (min-width: 1400px) {
+    .kotak {
+        width: 50%;
+    }
+
+    .kotak input {
+        width: 600px;
+    }
+    
+}
+
+@media only screen and (max-width: 1399px) and (min-width: 750px) {
+    .kotak {
+        width: 75%;
+    }
+
+    .kotak input {
+        width: 400px;
+    }
+}
